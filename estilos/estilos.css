@@ -1,0 +1,81 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background-image: url(pexels-andrew-neel-2312369.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header{
+    height: 70px;
+    width: 100%;
+    background: #262727;
+    
+}
+.menu{
+    display: inline-flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.logo{
+    margin-left: 30px;
+    padding: 10px;
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.btn{
+    cursor: pointer;
+    color: #fff;
+    background: transparent;
+    border: solid 2px #fff;
+    border-radius: 50px;
+    margin: 15px;
+    justify-content: left;
+    height: 40px;
+    width: 120px;
+    font-size: 1.2rem;
+    font-weight: bolder;
+    transition: .5s;
+}
+
+
+.btn:hover{
+ color: #10beb0;
+ border-color: #10beb0;
+ box-shadow: 0 0 4px #10beb0;
+}
+
+
+
+.menu ul {
+    display: inline-flex;
+    list-style: none;
+    
+}
+.menu ul li{
+    padding: 30px;  
+
+}
+.menu ul li a{
+    font-family: sans-serif;
+    font-weight: bolder;
+    color: #fff;
+    text-decoration: none;
+    font-size: 19px;
+    transition: .5s;
+}
+.menu ul li a:hover{
+    color: #10beb0;
+    
+}
